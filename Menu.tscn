@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=3 uid="uid://qpdtraxafite"]
+
+[ext_resource type="Texture2D" uid="uid://b8qf2uqa1wv6o" path="res://DivAlchMenuSprite/SpriteMenuSorcere0.png" id="1_cx167"]
+[ext_resource type="Texture2D" uid="uid://bke54k2gtveh6" path="res://DivAlchMenuSprite/SpriteMenuSorcere1.png" id="2_dolsu"]
+[ext_resource type="Texture2D" uid="uid://c2x2klubr0tmj" path="res://DivAlchMenuSprite/SpriteMenuSorcere2.png" id="3_n4eug"]
+[ext_resource type="Texture2D" uid="uid://donekhttencmt" path="res://DivAlchMenuSprite/SpriteMenuSorcere3.png" id="4_dlksc"]
+[ext_resource type="Script" uid="uid://dq05w0visyujw" path="res://animated_sprite_2d.gd" id="5_dlksc"]
+[ext_resource type="Texture2D" uid="uid://o5w35s0sbjo" path="res://TitreUp.PNG" id="5_n4eug"]
+[ext_resource type="Texture2D" uid="uid://bh06gc0sg5bsy" path="res://TitreDown.PNG" id="6_dlksc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uubjt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cx167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dolsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n4eug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dlksc")
+}],
+"loop": true,
+"name": &"MenuMage",
+"speed": 5.0
+}]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -30.0
+offset_top = -27.0
+offset_right = 2623.0
+offset_bottom = 1620.0
+color = Color(0, 0, 0, 1)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(1951, 1011)
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_uubjt")
+animation = &"MenuMage"
+frame_progress = 0.37899143
+speed_scale = 1.3
+script = ExtResource("5_dlksc")
+
+[node name="TitreUp" type="Sprite2D" parent="."]
+position = Vector2(476, 178)
+texture = ExtResource("5_n4eug")
+
+[node name="TitreDown" type="Sprite2D" parent="."]
+position = Vector2(1347, 202)
+texture = ExtResource("6_dlksc")

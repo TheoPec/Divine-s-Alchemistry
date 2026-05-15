@@ -1,0 +1,385 @@
+[gd_scene load_steps=64 format=3 uid="uid://dbknven31owpr"]
+
+[ext_resource type="Script" uid="uid://cxx78emmdjhrj" path="res://level_1.gd" id="1_7ov7e"]
+[ext_resource type="Texture2D" uid="uid://b6hhkttikr6i" path="res://Texture/TileDirt2-3.png" id="2_1bjei"]
+[ext_resource type="Texture2D" uid="uid://kiawrp2cup7o" path="res://Texture/TileDirt2-2.png" id="3_5g1s2"]
+[ext_resource type="Texture2D" uid="uid://dor5o2um8fkwt" path="res://Texture/TileDirt2-1.png" id="4_aiv1b"]
+[ext_resource type="Texture2D" uid="uid://bi1dlvnse0054" path="res://Texture/TileSky.png" id="4_mlbie"]
+[ext_resource type="Script" uid="uid://3wdrl4okqttp" path="res://character_body_2d.gd" id="5_lmyl5"]
+[ext_resource type="Texture2D" uid="uid://bq6py5r0axkcv" path="res://Wizard Idle/WizardSprite0.png" id="6_5py54"]
+[ext_resource type="Texture2D" uid="uid://ckjacu7dcshpb" path="res://WizardSprite0/WizardDeath00.png" id="6_li71q"]
+[ext_resource type="Texture2D" uid="uid://b2eqg652auyu6" path="res://Wizard Idle/WizardSprite1.png" id="7_1bjei"]
+[ext_resource type="Texture2D" uid="uid://chgjbdp51ma6m" path="res://WizardSprite0/WizardDeath01.png" id="7_7ov7e"]
+[ext_resource type="Texture2D" uid="uid://bda7b7qqm711w" path="res://Wizard Idle/WizardSprite2.png" id="8_5g1s2"]
+[ext_resource type="Texture2D" uid="uid://gvin3ktujdmu" path="res://WizardSprite0/WizardDeath02.png" id="8_lyibo"]
+[ext_resource type="Texture2D" uid="uid://bn11vgaik5shs" path="res://WizardSprite0/WizardDeath03.png" id="9_1l3lx"]
+[ext_resource type="Texture2D" uid="uid://cigynrj4u5tqf" path="res://Wizard Idle/WizardSprite3.png" id="9_aiv1b"]
+[ext_resource type="Script" uid="uid://bcpkbl51e5q2k" path="res://camera_2d.gd" id="10_1bjei"]
+[ext_resource type="Texture2D" uid="uid://c12634koc8wln" path="res://WizardSprite0/WizardDeath04.png" id="10_c0nbv"]
+[ext_resource type="Texture2D" uid="uid://dtsiqsb3qtvye" path="res://WizardSprite0/WizardDeath05.png" id="11_0i2bn"]
+[ext_resource type="Texture2D" uid="uid://2wlo3cgjfrcw" path="res://WizardSprite0/WizardDeath06.png" id="12_vrd6h"]
+[ext_resource type="Texture2D" uid="uid://dng1157twqw4c" path="res://WizardSprite0/WizardDeath07.png" id="13_u6d44"]
+[ext_resource type="Texture2D" uid="uid://3tjvpr66gub8" path="res://WizardSprite0/WizardDeath08.png" id="14_vy68l"]
+[ext_resource type="Texture2D" uid="uid://od05qm7nl5cb" path="res://WizardSprite0/WizardDeath09.png" id="15_ynkw1"]
+[ext_resource type="Texture2D" uid="uid://ccmmt25b8w8j0" path="res://WizardSprite0/WizardDeath10.png" id="16_72nym"]
+[ext_resource type="Texture2D" uid="uid://dqnv0o6l3avms" path="res://WizardSprite0/WizardDeath11.png" id="17_dv177"]
+[ext_resource type="Texture2D" uid="uid://bpdq18ipqvu71" path="res://WizardSprite0/WizardDeath12.png" id="18_7s0o3"]
+[ext_resource type="Texture2D" uid="uid://d071xcnum7s7n" path="res://WizardSprite0/WizardDeath13.png" id="19_cbyn3"]
+[ext_resource type="Texture2D" uid="uid://c1kbakrilvg1e" path="res://WizardSprite0/WizardDeath14.png" id="20_7oyr4"]
+[ext_resource type="Texture2D" uid="uid://dppxlubflmelu" path="res://WizardSprite0/WizardDeath15.png" id="21_fxecw"]
+[ext_resource type="Texture2D" uid="uid://b04scllp0p16d" path="res://WizardSprite0/WizardDeath16.png" id="22_w0pvb"]
+[ext_resource type="Texture2D" uid="uid://ccp6dgirxmoqm" path="res://WizardSprite0/WizardDeath17.png" id="23_pmhy1"]
+[ext_resource type="Texture2D" uid="uid://dae60gel1xjw3" path="res://WizardSprite0/WizardDeath18.png" id="24_qihe8"]
+[ext_resource type="Texture2D" uid="uid://4kabgm05f5kc" path="res://WizardSprite0/WizardDeath19.png" id="25_rdseo"]
+[ext_resource type="Texture2D" uid="uid://cqiu3xc6wyy05" path="res://WizardSprite0/WizardDeath20.png" id="26_qyse8"]
+[ext_resource type="Texture2D" uid="uid://3iq50lk5k0cv" path="res://WizardSprite0/WizardDeath21.png" id="27_s67d5"]
+[ext_resource type="Texture2D" uid="uid://t06m2q334b3j" path="res://WizardSprite0/WizardDeath22.png" id="28_va7o3"]
+[ext_resource type="Texture2D" uid="uid://bus5wjvs6hxes" path="res://WizardSprite0/WizardDeath23.png" id="29_cwgwj"]
+[ext_resource type="Texture2D" uid="uid://c6jgctvhijyyf" path="res://WizardSprite0/WizardDeath24.png" id="30_81hkr"]
+[ext_resource type="Texture2D" uid="uid://c032fwdue4atf" path="res://WizardSprite0/WizardDeath25.png" id="31_sg233"]
+[ext_resource type="Texture2D" uid="uid://c2450lv7nygwo" path="res://WizardSprite0/WizardDeath26.png" id="32_vq3e2"]
+[ext_resource type="Texture2D" uid="uid://dluaf0d021l5b" path="res://WizardSprite0/WizardDeath27.png" id="33_nwyvt"]
+[ext_resource type="Texture2D" uid="uid://b4f2h2qhs3c5n" path="res://WizardSprite0/WizardDeath28.png" id="34_87o8m"]
+[ext_resource type="Texture2D" uid="uid://dxkl3cc325swj" path="res://WizardSprite0/WizardDeath29.png" id="35_o4j8y"]
+[ext_resource type="Texture2D" uid="uid://cvwn3i05amqnh" path="res://WizardSprite0/WizardDeath30.png" id="36_wkk2y"]
+[ext_resource type="Texture2D" uid="uid://djkqxeul42su6" path="res://Fairy1.png" id="43_lyibo"]
+[ext_resource type="Script" uid="uid://bqu76ekflcw47" path="res://fairy_1.gd" id="44_1l3lx"]
+[ext_resource type="Texture2D" uid="uid://cecnoncccdfra" path="res://TextBox/TextBox.png" id="45_0i2bn"]
+[ext_resource type="Texture2D" uid="uid://cxmtbb77q7wmt" path="res://TextBox/TextBoxLine.png" id="46_vrd6h"]
+[ext_resource type="FontFile" uid="uid://ckrtdmflxwc8e" path="res://yoster.ttf" id="47_vrd6h"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5g1s2"]
+texture = ExtResource("4_mlbie")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a2cb0"]
+texture = ExtResource("2_1bjei")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3gjqj"]
+texture = ExtResource("3_5g1s2")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g56ap"]
+texture = ExtResource("4_aiv1b")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_aiv1b"]
+sources/4 = SubResource("TileSetAtlasSource_5g1s2")
+sources/6 = SubResource("TileSetAtlasSource_a2cb0")
+sources/7 = SubResource("TileSetAtlasSource_3gjqj")
+sources/8 = SubResource("TileSetAtlasSource_g56ap")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1bjei"]
+size = Vector2(2244.0002, 141)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5g1s2"]
+size = Vector2(175.5, 141)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aiv1b"]
+size = Vector2(808.50024, 141)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wapi5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_li71q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7ov7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_lyibo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1l3lx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_c0nbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0i2bn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_vrd6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_u6d44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_vy68l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ynkw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_72nym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_dv177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_7s0o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_cbyn3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_7oyr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_fxecw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_w0pvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_pmhy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_qihe8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_rdseo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_qyse8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_s67d5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_va7o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_cwgwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_81hkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_sg233")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_vq3e2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_nwyvt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_87o8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_o4j8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_wkk2y")
+}],
+"loop": false,
+"name": &"death",
+"speed": 13.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_5py54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1bjei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_5g1s2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_aiv1b")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5py54"]
+size = Vector2(87, 285)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wapi5"]
+texture = ExtResource("4_mlbie")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_a2cb0"]
+sources/0 = SubResource("TileSetAtlasSource_wapi5")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_li71q"]
+size = Vector2(9585, 289)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u6d44"]
+texture = ExtResource("45_0i2bn")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vy68l"]
+texture = ExtResource("46_vrd6h")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ynkw1"]
+sources/0 = SubResource("TileSetAtlasSource_u6d44")
+sources/1 = SubResource("TileSetAtlasSource_vy68l")
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_7ov7e")
+
+[node name="i0" type="TileMap" parent="."]
+texture_filter = 1
+position = Vector2(1466, 0)
+scale = Vector2(5, 5)
+tile_set = SubResource("TileSet_aiv1b")
+format = 2
+layer_0/tile_data = PackedInt32Array(786456, 8, 0, 786432, 8, 0, 786434, 8, 0, 786436, 8, 0, 786438, 8, 0, 786440, 7, 0, 786444, 7, 0, 786442, 6, 0, 786447, 6, 0, 786449, 8, 0, 786451, 8, 0, 786453, 8, 0, 786455, 8, 0, 851966, 8, 0, 851964, 8, 0, 851962, 8, 0, 851960, 8, 0, 851958, 8, 0, 851956, 8, 0, 851954, 8, 0, 851952, 8, 0, 851950, 8, 0, 851948, 6, 0, 720920, 8, 0, 720918, 8, 0, 720916, 6, 0, 786454, 8, 0, 786452, 8, 0)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="i0"]
+scale = Vector2(0.19999999, 0.19999999)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="i0/StaticBody2D"]
+position = Vector2(-442.99988, 995.4997)
+scale = Vector2(0.9999998, 0.9999998)
+shape = SubResource("RectangleShape2D_1bjei")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="i0/StaticBody2D"]
+position = Vector2(921.4999, 994)
+scale = Vector2(0.9999997, 0.9999997)
+shape = SubResource("RectangleShape2D_5g1s2")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="i0/StaticBody2D"]
+position = Vector2(1633.7501, 995.9998)
+scale = Vector2(0.9999996, 0.9999996)
+shape = SubResource("RectangleShape2D_aiv1b")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(24, 777)
+script = ExtResource("5_lmyl5")
+speed = 400.0
+gravity = 2000.0
+jump_impulse = 700.0
+jump_hold_gravity = 1200.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+texture_filter = 1
+position = Vector2(0, -2)
+scale = Vector2(6, 6)
+sprite_frames = SubResource("SpriteFrames_wapi5")
+animation = &"death"
+frame = 30
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+visible = false
+position = Vector2(-2.5, 4.5)
+shape = SubResource("RectangleShape2D_5py54")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(643, -571)
+offset = Vector2(0, 325)
+script = ExtResource("10_1bjei")
+
+[node name="i-1" type="TileMap" parent="CharacterBody2D/Camera2D"]
+z_index = -1
+texture_filter = 1
+position = Vector2(-943, -203)
+scale = Vector2(5, 5)
+tile_set = SubResource("TileSet_a2cb0")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 0, 0, 2, 0, 0, 786432, 0, 4, 655360, 0, 4, 655362, 0, 4, 655364, 0, 4, 655366, 0, 4, 655368, 0, 4, 655370, 0, 4, 655372, 0, 4, 655374, 0, 4, 655376, 0, 4, 655378, 0, 4, 655380, 0, 4, 655382, 0, 4, 655384, 0, 4, 786447, 0, 4, 786445, 0, 4, 786441, 0, 4, 524288, 0, 3, 524290, 0, 3, 524292, 0, 3, 524294, 0, 3, 524296, 0, 3, 524298, 0, 3, 524300, 0, 3, 524302, 0, 3, 524304, 0, 3, 524306, 0, 3, 524308, 0, 3, 524310, 0, 3, 524312, 0, 3, 393216, 0, 2, 393218, 0, 2, 393220, 0, 2, 393222, 0, 2, 393223, 0, 2, 393225, 0, 2, 393227, 0, 2, 393229, 0, 2, 393231, 0, 2, 393233, 0, 2, 393235, 0, 2, 393237, 0, 2, 393239, 0, 2, 262144, 0, 1, 262145, 0, 1, 262146, 0, 1, 262147, 0, 1, 262148, 0, 1, 262149, 0, 1, 262150, 0, 1, 262151, 0, 1, 262152, 0, 1, 262153, 0, 1, 262154, 0, 1, 262155, 0, 1, 262156, 0, 1, 262157, 0, 1, 262158, 0, 1, 262159, 0, 1, 262160, 0, 1, 262161, 0, 1, 262162, 0, 1, 262163, 0, 1, 262164, 0, 1, 262165, 0, 1, 262166, 0, 1, 262167, 0, 1, 262168, 0, 1, 131072, 0, 1, 131073, 0, 1, 131074, 0, 1, 131075, 0, 1, 131076, 0, 1, 131077, 0, 1, 131078, 0, 1, 131079, 0, 1, 131080, 0, 1, 131081, 0, 1, 131082, 0, 1, 196622, 0, 1, 196621, 0, 1, 196620, 0, 1, 196619, 0, 1, 196618, 0, 1, 4, 0, 0, 6, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 14, 0, 0, 16, 0, 0, 18, 0, 0, 20, 0, 0, 22, 0, 0, 24, 0, 0, 131083, 0, 1, 131084, 0, 1, 131085, 0, 1, 131086, 0, 1, 131087, 0, 1, 131088, 0, 1, 131089, 0, 1, 131090, 0, 1, 131091, 0, 1, 131092, 0, 1, 131093, 0, 1, 131094, 0, 1, 131095, 0, 1, 131096, 0, 1, 393240, 0, 2, 786433, 0, 4, 786434, 0, 4, 786435, 0, 4, 786436, 0, 4, 786437, 0, 4, 786438, 0, 4, 786439, 0, 4, 786440, 0, 4, 786442, 0, 4, 851978, 0, 4, 851979, 0, 4, 851980, 0, 4, 851981, 0, 4, 851982, 0, 4, 851983, 0, 4, 851984, 0, 4, 851985, 0, 4, 851986, 0, 4, 851987, 0, 4, 786451, 0, 4, 786452, 0, 4, 786453, 0, 4, 786450, 0, 4, 786449, 0, 4, 786448, 0, 4, 786446, 0, 4, 786444, 0, 4, 917514, 0, 4, 917513, 0, 4, 917512, 0, 4, 917511, 0, 4, 917510, 0, 4, 851974, 0, 4, 851973, 0, 4, 851972, 0, 4, 851967, 0, 4, 786443, 0, 4, 917496, 0, 4, 983036, 0, 4, 1048572, 0, 4, 1048571, 0, 4, 1048570, 0, 4, 983033, 0, 4, 983032, 0, 4, 917495, 0, 4, 983034, 0, 4, 983035, 0, 4, 917498, 0, 4, 917497, 0, 4, 851961, 0, 4, 917499, 0, 4, 786455, 0, 4, 786456, 0, 4)
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-1037, 414)
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(3473.5, 789)
+shape = SubResource("RectangleShape2D_li71q")
+
+[node name="Fairy1" type="Sprite2D" parent="."]
+position = Vector2(-570, 515)
+scale = Vector2(6, 6)
+texture = ExtResource("43_lyibo")
+flip_h = true
+script = ExtResource("44_1l3lx")
+base_y = 500.0
+
+[node name="TileMap" type="TileMap" parent="."]
+z_index = 2
+position = Vector2(-269, 205)
+scale = Vector2(5, 5)
+tile_set = SubResource("TileSet_ynkw1")
+format = 2
+layer_0/tile_data = PackedInt32Array(-65536, 0, 0, 65536, 0, 1610612736, -65534, 1, 0, -65532, 1, 0, -65530, 1, 0, 65538, 1, 805306368, 65540, 1, 805306368, 65542, 1, 805306368, -65528, 1, 0, 65544, 1, 805306368, 65546, 1, 805306368, -65526, 1, 0, -65524, 0, 1342177280, 65548, 0, 805306368)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap"]
+offset_left = 8.799999
+offset_top = -11.0
+offset_right = 211.59999
+offset_bottom = 29.0
+theme_override_colors/default_color = Color(0.7899709, 0.24557793, 0.70687866, 1)
+theme_override_fonts/normal_font = ExtResource("47_vrd6h")
+theme_override_font_sizes/normal_font_size = 12
+text = "Salut ma nenette, tu ressembles un peu trop à Alenxandre."
+horizontal_alignment = 1
+
+[connection signal="body_entered" from="Area2D" to="CharacterBody2D" method="_on_area_2d_body_entered"]
